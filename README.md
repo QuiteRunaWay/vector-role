@@ -24,12 +24,10 @@ Dependencies
 Example Playbook
 ----------------
 
-- name: Install Vector
-  hosts: your_host
-  roles: 
-    - vector-role
+hosts: your_hostname
+ roles: 
+   - vector-role
 
 License
 -------
-
 BSD
